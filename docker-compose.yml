@@ -3,7 +3,7 @@ services:
   ethsyncing:
     build: .
     environment:
-      URL: http://167.86.114.131:8545
+      URL: ${URL}
       OUT: /usr/src/app/data/ethsyncing.csv
     volumes:
       - ./ethsyncing_data:/usr/src/app/data
