@@ -1,0 +1,5 @@
+node_modules/
+ethsyncing_data/
+eth_syncing.csv
+docker-compose.yml
+Dockerfile
